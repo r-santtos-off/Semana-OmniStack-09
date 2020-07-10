@@ -13,7 +13,7 @@ const server = http.Server(app);
 const io = socketio(server);
 
 // Criando conexão com banco de dados
-mongoose.connect('mongodb+srv://analistacode:82161992@analistacode-oh3nu.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://analistacode:kkgkg@analistacode-oh3nu.mongodb.net/semana09?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
